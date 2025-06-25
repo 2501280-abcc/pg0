@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+        background-color: antiquewhite;
+    caret-color: black;
+}#menu{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    background-color: #333333;
+    padding: 10px;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+#menu a:hover{
+    background-color: #555555;
+}
+.kuwashiku img{
+    width: 400px;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.syoukai{
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.tokugi img{
+    width: 400px;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.dandadan img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.comics2{
+    padding: 10px;
+}
+.game2{
+    padding: 10px;
+}
+.comics1 img{
+    width: 400px;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.game1 img{
+    width: 100px;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.food{
+    text-align: center;
+}
+.food img{
+    width: 400px;
+    height: auto;
+}
+.ongaku iframe{
+    width: 560px;
+    height: 315px; 
+}
